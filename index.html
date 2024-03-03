@@ -9,7 +9,62 @@
 </head>
 
 <body>
-
+	<section class="background">
+		<div class="logo"><img src="book.svg" alt="" width="64px" height="64px"><strong>Archit</strong></div>
+	</section>
+	<section class="form-container">
+		<section>
+			<p>
+				This is not a real online service! You know you need something like this in your life to help you
+				realize
+				your deepest dreams.
+				<br>
+				Sign up <em>now</em> to get started.
+			</p>
+			<p>
+				You <em>know</em> you want to.
+			</p>
+		</section>
+		<section>
+			<form action="#" method="post" id="sign-up-form">
+				<h3 id="action-text">Let's do this!</h3>
+				<div class="info personal-container">
+					<div>
+						<label for="first_name">First name</label>
+						<input type="text" name="first_name" id="first_name">
+					</div>
+					<div>
+						<label for="last_name">last name</label>
+						<input type="text" name="last_name" id="last_name">
+					</div>
+				</div>
+				<div class="info contact-container">
+					<div>
+						<label for="email">Email</label>
+						<input type="email" name="email" id="email">
+					</div>
+					<div>
+						<label for="phone-number">Phone number</label>
+						<input type="tel" name="phone_number" id="phone-number">
+					</div>
+				</div>
+				<div class="info pwd-container">
+					<div>
+						<label for="pwd">Password</label>
+						<input type="password" name="password" id="pwd">
+					</div>
+					<div>
+						<label for="confirm-pwd">Confirm Password</label>
+						<input type="password" name="confirm-password" id="confirm-pwd">
+					</div>
+				</div>
+			</form>
+			<button type="submit" form="sign-up-form" class="submit-btn">Create Account</button>
+			<div class="login-container">
+				Already have an account? <a href="#" class="login-link">Log in</a>
+			</div>
+		</section>
+	</section>
 </body>
 
 </html>
