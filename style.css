@@ -25,6 +25,8 @@ body {
 	color: white;
 }
 
+
+
 .main-container {
 	display: flex;
 	flex-direction: column;
@@ -118,6 +120,16 @@ input:valid {
 	font-size: 64px;
 	padding: 36px;
 	line-height: 4rem;
+}
+
+.attribution {
+	position: relative;
+	text-align: center;
+	top: 75%;
+}
+
+.attribution a {
+	text-decoration: none;
 }
 
 .submit-btn {
