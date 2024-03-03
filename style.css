@@ -45,7 +45,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	gap: 24px;
-	padding: var(--side-padding);
+	padding: 16px var(--side-padding);
 	background-color: white;
 	color: black;
 	box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.3), 0 6px 20px 0 rgba(255, 255, 255, 0.3);
@@ -66,14 +66,33 @@ body {
 }
 
 .info label {
+	display: block;
 	text-transform: uppercase;
-	font-size: 0.8rem;
+	font-size: 0.7rem;
 	font-weight: 600;
+	color: rgba(0, 0, 0, 0.8);
 }
 
-label {
-	display: block;
+
+input {
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 4px;
+	border-color: #E5E7EB;
+	padding: 5px;
+	margin: 4px 0px;
 }
+
+input:focus {
+	border-color: blue;
+	box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2);
+	outline: none;
+}
+
+input:valid {
+	background-color: white !important;
+}
+
 
 .main-text,
 .btns-container {
