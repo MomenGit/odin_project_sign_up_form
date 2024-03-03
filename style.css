@@ -95,6 +95,10 @@ input:valid {
 	background-color: white !important;
 }
 
+input:focus:invalid {
+	border-color: red;
+}
+
 
 .main-text,
 .btns-container {
