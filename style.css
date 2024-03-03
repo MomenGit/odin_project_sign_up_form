@@ -22,7 +22,7 @@ body {
 	background-image: url("./donny-jiang-42gFAgdIUC8-unsplash.jpg");
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	color: antiquewhite;
+	color: white;
 }
 
 .main-container {
@@ -31,7 +31,8 @@ body {
 	justify-content: center;
 	flex: 2 0 400px;
 	gap: 32px;
-	background-color: aliceblue;
+	background-color: black;
+	color: whitesmoke;
 }
 
 .form-container {
@@ -41,13 +42,37 @@ body {
 }
 
 #sign-up-form {
-	padding: 16px var(--side-padding);
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	padding: var(--side-padding);
 	background-color: white;
+	color: black;
+	box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.3), 0 6px 20px 0 rgba(255, 255, 255, 0.3);
+}
+
+#sign-up-form h3 {
+	margin: 0px;
 }
 
 
 .main-text {
-	font-weight: bold;
+	font-weight: 600;
+}
+
+.info {
+	display: flex;
+	gap: 64px;
+}
+
+.info label {
+	text-transform: uppercase;
+	font-size: 0.8rem;
+	font-weight: 600;
+}
+
+label {
+	display: block;
 }
 
 .main-text,
@@ -71,4 +96,20 @@ body {
 	align-items: self-end;
 	gap: 8px;
 	font-size: 36px;
+}
+
+.submit-btn {
+	padding: 12px 36px;
+	background-color: whitesmoke;
+	font-weight: bold;
+	font-size: 1rem;
+	color: black;
+	border-width: 0px;
+	border-radius: 8px;
+}
+
+.login-link {
+	text-decoration: none;
+	font-weight: bold;
+	color: lightgray;
 }
